@@ -1,0 +1,22 @@
+@import "includes/fonts";
+@import "includes/reset";
+@import "includes/settings";
+@import "header";
+@import "content";
+@import "footer";
+@import "includes/media";
+
+html, body {
+	overflow-x: hidden;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+.row {
+	max-width: 1440px;
+	margin: 0 auto;
+	position: relative;
+}
+body {
+	margin: 0 auto;
+}

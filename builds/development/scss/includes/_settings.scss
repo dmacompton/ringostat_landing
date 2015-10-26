@@ -1,0 +1,13 @@
+@mixin spritebox($left, $top) {
+	background: url('img/social.png') no-repeat $left $top;
+	height: 38px;
+	background-size: 500%;
+	width: 38px;
+	float: left;
+	display: inline-block;
+}
+
+@mixin spritebox-footer($x, $y) {
+	background-size: 370%;
+	background-position: $x $y;
+}
