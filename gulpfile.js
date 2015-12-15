@@ -32,9 +32,10 @@ gulp.task('css', function() {
 gulp.task('js', function() {
 	gulp.src([
 		'builds/development/js/jquery-1.10.2.min.js',
-		'builds/development/js/modernizr.js',
-		'builds/development/js/device.js',
-		'builds/development/js/jqeury.waypoints.js',
+		'builds/development/js/jquery.smooth-scroll.min.js',
+		//'builds/development/js/modernizr.js',
+		//'builds/development/js/device.js',
+		//'builds/development/js/jqeury.waypoints.js',
 		'builds/development/js/script.js'
 	])
 		.pipe(uglify())
@@ -50,8 +51,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('watch', function() {
-	gulp.watch('builds/development/scss/includes/*.scss', ['css']);
-	gulp.watch('builds/development/scss/*.scss', ['css']);
+	gulp.watch('builds/development/scss/**/*.scss', ['css']);
 	gulp.watch('builds/development/index.html', ['html']);
 	gulp.watch('builds/development/js/*.js', ['js']);
 });

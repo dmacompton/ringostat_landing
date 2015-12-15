@@ -1,0 +1,36 @@
+.main_nav_logo {  
+	text-align: left;  
+	height: 80px;  
+	padding: 26px 30px 10px 30px;  
+	float: left
+}
+
+.main_nav_logo img {  
+	width: 182px
+}
+.header-btn {
+	float: right;
+	margin-top: 30px;
+	font: 18px 'OpenSansRegular';
+	button {
+		color: #fff;
+		box-shadow: -2px 3px 25px -4px #000;
+		line-height: 25px;
+		border-radius: 25px;
+	}
+}
+.btn-login {
+	background-color: #69A571;
+	padding: 8px 25px;
+}
+.btn-demo {
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #fff;
+	padding: 4px 25px;
+	margin-left: 25px;
+}
+.navbar-inverse {
+	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0,0,0,0);
+}
