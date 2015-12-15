@@ -33,6 +33,7 @@ gulp.task('js', function() {
 	gulp.src([
 		'builds/development/js/jquery-1.10.2.min.js',
 		'builds/development/js/jquery.smooth-scroll.min.js',
+		'builds/development/js/bootstrap.min.js',
 		//'builds/development/js/modernizr.js',
 		//'builds/development/js/device.js',
 		//'builds/development/js/jqeury.waypoints.js',

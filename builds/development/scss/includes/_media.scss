@@ -1,41 +1,15 @@
-@media (min-width: 767px) {
-  #nav_for_phones {
-    display:none!important
+@media (max-width: 480px) {
+  body {
+    font-size: 8px;
   }
-
-  #collapse-nav {
-    display: none
+  .main-footer-block {
+    padding: 10px 0 0;
   }
-}
-@media (max-width: 767px) {
-  .main_nav_telephone {
-    background-color:#333;
-    margin-right: 0;
-    margin-left: 10px;
-    float: left;
-    width: 200px
-  }
-
-  .main_nav_logo {
-    padding: 0
-  }
-
-  .main_nav_telephone p {
-    font-size: 15px
-  }
-
-  .language-change {
-    margin-left: 0
-  }
-
-  .language-change .btn {
-    padding-left: 0;
-    padding-right: 0
-  }
-
-  .language-change .dropdown-menu {
-    top: 85px;
-    width: 178px;
-    left: -100px
+  .main-text-block {
+    padding-top: 17%;
+    .large-text {
+      margin-top: 1em;
+      line-height: 1.4em;
+    }
   }
 }

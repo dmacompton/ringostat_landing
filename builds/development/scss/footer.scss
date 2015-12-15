@@ -1,0 +1,29 @@
+footer {
+  background: #323234;
+  border-top: 11px solid #ec6762;
+  a {
+    font: 1.667em 'OpenSansLight';
+    color: #fff;
+    line-height: 48px;
+    i {
+      color: #ec6762;
+      margin-right: 9px;
+    }
+    &:hover {
+      color: #eee;
+    }
+  }
+  .logo {
+    max-width: 182px;
+  }
+  .footer-height {
+    height: 144px;
+  }
+  .border-left {
+    border-left: 2px solid #4c4c4d;
+  }
+  .col-sm-4 {
+    padding: 26px 0;
+    margin: 21px 0;
+  }
+}

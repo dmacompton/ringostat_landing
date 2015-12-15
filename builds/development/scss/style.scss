@@ -21,10 +21,10 @@ html, body {
 	//margin: 0 auto;
 	//position: relative;
 }
-body {
-	//margin: 0 auto;
-}
 button {
 	border: none;
 	outline: 0;
+}
+.clickable {
+	cursor: pointer;
 }
