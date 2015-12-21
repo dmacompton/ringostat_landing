@@ -12,4 +12,50 @@
       line-height: 1.4em;
     }
   }
+  .third p {
+    font-size: 1.85em;
+  }
+  .m-t-lg {
+    margin-top: 20px;
+  }
+  .p-t-sm {
+    padding-top: 5px;
+  }
+  .p-b-sm {
+    padding-bottom: 5px;
+  }
+  .header {
+    margin-top: 30px;
+  }
+  .block-spacing {
+    margin: 20px 0 40px;
+  }
+  .fifth {
+    .box-number p {
+      font-size: 1.83em;
+    }
+    .col-sm-12.text-center.m-t-md {
+      margin-top: 70px;
+      p {
+        font-size: 2.2em;
+      }
+    }
+  }
+  .buttons.btn-login {
+    font-size: 2.2em;
+  }
+  .fifth .green-line {
+    padding-top: 35px;
+    .fa-dot-circle-o {
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .fourth .img-responsive {
+    margin: 20px auto 0;
+  }
+  .border-left {
+    border-left: none !important;
+  }
 }
