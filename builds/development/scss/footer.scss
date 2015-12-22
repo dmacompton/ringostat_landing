@@ -6,12 +6,15 @@ footer {
 		font: 1.667em 'OpenSansLight';
 		color: #fff;
 		line-height: 48px;
+		text-decoration: none !important;
 		i {
 			color: #ec6762;
 			margin-right: 9px;
+		    font-size: 26px !important;
 		}
-		&:hover {
+		&:hover span {
 			color: #eee;
+			border-bottom: 1px solid;
 		}
 	}
 	.logo {

@@ -44,10 +44,10 @@ body {
 	&-text-block {
 		padding-top: 13%;
 		.small-text {
-			font: 3.33em 'OpenSansLight';
+			font: 3.13em 'OpenSansLight';
 		}
 		.large-text {
-			font: 4.5em 'OpenSansSemiBold';
+			font: 4em 'OpenSansSemiBold';
 			margin-top: 5%;
 			line-height: 60px;
 		}
@@ -55,7 +55,7 @@ body {
 	&-footer-block {
 		position: absolute;
 		bottom: 0;
-		background: rgba(0,0,0,.5);
+		background: rgba(14,5,0,.5);
 		padding: 20px 0;
 		font: 1.66em 'OpenSansRegular';
 		border-bottom: 7px solid #ec6762;
@@ -65,7 +65,7 @@ body {
 	//color: #636363;
 	border-bottom: 1px solid #dbdbdb;
 	.info-block p {
-		font: 2em 'OpenSansLight';
+		font: 1.8em 'OpenSansLight';
 		margin-top: 40px;
 	}
 	.icons {
@@ -91,8 +91,8 @@ body {
 		font: 1.33em 'OpenSansLight';
 	}
 	.icons {
-		height: 110px;
-		width: 110px;
+		height: 100px;
+		width: 100px;
 		display: inline-block;
 		position: relative;
 		border: 1px solid #CCC;
@@ -105,6 +105,9 @@ body {
 			bottom: 0;
 			margin: auto;
 		}
+		&.phone svg {
+		    left: 6px;
+		}
 	}
 	.buttons {
 		text-decoration: none;
@@ -116,10 +119,13 @@ body {
 		height: 100px;
 	}
 	.img-responsive {
+		max-height: 100%;
+	    max-width: 90%;
 		margin: 0 auto;
 	}
 }
 .fifth {
+	background: #f9f9fa;
 	span {
 		border: 2px solid #69a571;
 		border-radius: 55px;
@@ -151,17 +157,16 @@ body {
 
 .buttons {
 	color: #fff !important;
-	box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.42);
 	line-height: 25px;
-	border-radius: 25px;
+	border-radius: 30px;
 	font: 1.5em 'OpenSansLight';
 	&.btn-login {
 		background-color: #69A571;
-		padding: 9px 27px;
+		padding: 15px 38px;
 		transition: background-color .3s, box-shadow .3s;
 		&:hover {
 			background-color: #599061 !important;
-			box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.3);
+			text-decoration: none;
 		}
 	}
 }
