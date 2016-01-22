@@ -108,13 +108,13 @@
     }
     .buttons-header {
         color: #fff !important;
-        box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.42);
         line-height: 25px;
         border-radius: 25px;
         font: 1.5em 'OpenSansLight';
         &.btn-login {
             background-color: #69A571;
             padding: 9px 27px;
+            box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.42);
             transition: background-color .3s, box-shadow .3s;
             &:hover {
                 background-color: #599061 !important;
