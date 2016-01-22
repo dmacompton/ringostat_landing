@@ -8,35 +8,40 @@
 @import "includes/media";
 
 html, body {
-	//overflow-x: hidden;
-	//-moz-user-select: none;
-	//-khtml-user-select: none;
-	//user-select: none;
+    //overflow-x: hidden;
+    //-moz-user-select: none;
+    //-khtml-user-select: none;
+    //user-select: none;
 }
+
 .container {
-	max-width: 960px;
+    max-width: 960px;
 }
+
 .row {
-	//max-width: 960px;
-	//margin: 0 auto;
-	//position: relative;
+    //max-width: 960px;
+    //margin: 0 auto;
+    //position: relative;
 }
+
 button {
-	border: none;
-	outline: 0;
+    border: none;
+    outline: 0;
 }
+
 .clickable {
-	cursor: pointer;
+    cursor: pointer;
 }
+
 .clearfix {
-	clear: both;
+    clear: both;
 }
 
 .vcenter {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto !important;
 }
