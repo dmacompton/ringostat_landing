@@ -1,61 +1,80 @@
 @media (max-width: 480px) {
-  body {
-    font-size: 8px;
-  }
-  .main-footer-block {
-    padding: 10px 0 0;
-  }
-  .main-text-block {
-    padding-top: 17%;
-    .large-text {
-      margin-top: 1em;
-      line-height: 1.4em;
+    body {
+        font-size: 8px !important;
     }
-  }
-  .third p {
-    font-size: 1.85em;
-  }
-  .m-t-lg {
-    margin-top: 20px;
-  }
-  .p-t-sm {
-    padding-top: 5px;
-  }
-  .p-b-sm {
-    padding-bottom: 5px;
-  }
-  .header {
-    margin-top: 30px;
-  }
-  .block-spacing {
-    margin: 20px 0 40px;
-  }
-  .fifth {
-    .box-number p {
-      font-size: 1.83em;
+    .main-footer-block {
+        padding: 10px 0 0;
     }
-    .col-sm-12.text-center.m-t-md {
-      margin-top: 70px;
-      p {
+    .main-text-block {
+        padding-top: 17%;
+        .large-text {
+            margin-top: 1em;
+            line-height: 1.4em;
+        }
+    }
+    .third p {
+        font-size: 1.85em;
+    }
+    .m-t-lg {
+        margin-top: 20px;
+    }
+    .p-t-sm {
+        padding-top: 5px;
+    }
+    .p-b-sm {
+        padding-bottom: 5px;
+    }
+    .header {
+        margin-top: 30px;
+    }
+    .block-spacing {
+        margin: 20px 0 40px;
+    }
+    .fifth {
+        .box-number p {
+            font-size: 1.83em;
+        }
+        .col-sm-12.text-center.m-t-md {
+            margin-top: 70px;
+            p {
+                font-size: 2.2em;
+            }
+        }
+    }
+    .buttons.btn-login {
         font-size: 2.2em;
-      }
     }
-  }
-  .buttons.btn-login {
-    font-size: 2.2em;
-  }
-  .fifth .green-line {
-    padding-top: 35px;
-    .fa-dot-circle-o {
-      font-size: 20px;
+    .fifth .green-line {
+        padding-top: 35px;
+        .fa-dot-circle-o {
+            font-size: 20px;
+        }
     }
-  }
 }
+
 @media (max-width: 767px) {
-  .fourth .img-responsive {
-    margin: 20px auto 0;
-  }
-  .border-left {
-    border-left: none !important;
-  }
+    body {
+        font-size: 9px;
+    }
+    .fourth .img-responsive {
+        margin: 20px auto 0;
+    }
+    .border-left {
+        border-left: none !important;
+    }
+    .p-t-sm {
+        padding-top: 10px;
+    }
+    .p-b-sm {
+        padding-bottom: 10px;
+    }
+    .p-t-none {
+        padding-top: 0 !important;
+    }
+    .m-t-md {
+        margin-top: 60px;
+    }
+    .block-spacing {
+        margin: 35px 0 40px;
+    }
 }

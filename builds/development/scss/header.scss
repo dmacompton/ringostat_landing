@@ -3,7 +3,8 @@
 	background-color: rgba(0,0,0,0);
 	text-align: center;
 	&_logo img {
-		width: 182px
+		// width: 182px;
+		width: 222px;
 	}
 }
 
@@ -79,6 +80,7 @@
 			background-color: rgba(32,17,8,0.5);
 			height: 0;
 			.main_nav_logo {
+  				margin-top: -5px;
 				padding-top: 0;
 			}
 			.header-btn {
@@ -88,7 +90,8 @@
 		.main_nav_logo {
 			text-align: left;
 			//height: 80px;
-			padding: 26px 30px 10px 30px;
+			// padding: 26px 30px 10px 30px;
+			padding: 15px 30px 10px 30px;
 			float: left;
 			transition: padding .3s;
 		}

@@ -1,48 +1,65 @@
 footer {
-	//overflow: hidden;
-	background: #323234;
-	border-top: 11px solid #ec6762;
-	a {
-		font: 1.667em 'OpenSansLight';
-		color: #fff;
-		line-height: 48px;
-		text-decoration: none !important;
-		i {
-			color: #ec6762;
-			margin-right: 9px;
-		    font-size: 26px !important;
-		}
-		&:hover span {
-			color: #eee;
-			border-bottom: 1px solid;
-		}
-	}
-	.logo {
-		max-width: 182px;
-	}
-	.border-left {
-		border-left: 2px solid #4c4c4d;
-	}
+    //overflow: hidden;
+    background: #323234;
+    border-top: 11px solid #ec6762;
+    a {
+        font: 1.667em 'OpenSansLight';
+        color: #fff;
+        line-height: 48px;
+        text-decoration: none !important;
+        i {
+            color: #ec6762;
+            margin-right: 9px;
+            font-size: 26px !important;
+        }
+        &:hover span {
+            color: #eee;
+            border-bottom: 1px solid;
+        }
+        &.icon {
+            &-phone,
+            &-email {
+                padding: 3px 3px 3px 40px;
+            }
+            &-email {
+                background: url("image/ic_mail_34x34.png") no-repeat left;
+            }
+            &-phone {
+                background: url("image/ic_phone_34x34.png") no-repeat left;
+            }
+        }
+    }
+    .logo {
+        max-width: 222px;
+        max-height: 50px;
+    }
+    .border-left {
+        border-left: 2px solid #4c4c4d;
+    }
 }
 
 @media (max-width: 767px) {
-	footer {
-		.logo {
-			padding: 10px;
-		}
-		a {
-			line-height: 28px;
-		}
-	}
+    footer {
+        .logo {
+            padding: 10px;
+        }
+        a {
+            line-height: 28px;
+        }
+        .footer-height {
+            height: 144px;
+        }
+    }
 }
+
 @media (min-width: 767px) {
-	footer {
-		.footer-height {
-			height: 144px;
-		}
-		.col-sm-4 {
-			padding: 26px 0;
-			margin: 21px 0;
-		}
-	}
+    footer {
+        .footer-height {
+            height: 144px;
+        }
+        .col-sm-4 {
+            padding: 26px 0;
+            margin: 21px 0;
+        }
+    }
 }
