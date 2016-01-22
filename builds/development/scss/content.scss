@@ -42,7 +42,7 @@ body {
     text-align: center;
     color: #fff;
     &-text-block {
-        padding-top: 13%;
+        padding-top: 27vh;
         .small-text {
             font: 3.13em 'OpenSansLight';
         }
@@ -61,6 +61,13 @@ body {
         padding: 20px 0;
         font: 1.66em 'OpenSansRegular';
         border-bottom: 7px solid #ec6762;
+        p {
+            max-width: 767px;
+            margin: auto;
+            line-height: 1.7em;
+			padding-bottom: 5px;
+			padding-top: 5px;
+        }
     }
 }
 .second {
@@ -145,6 +152,7 @@ body {
         border-bottom: 2px solid #69a571;
         height: 45px;
         padding-top: 30px;
+		margin-bottom: 30px;
         .fa-dot-circle-o {
             border-radius: 50%;
             color: #69a571;

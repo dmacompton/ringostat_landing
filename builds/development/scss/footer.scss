@@ -20,12 +20,15 @@ footer {
             &-phone,
             &-email {
                 padding: 3px 3px 3px 40px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: left;
             }
             &-email {
-                background: url("image/ic_mail_34x34.png") no-repeat left;
+                background-image: url("image/ic_mail_34x34.png");
             }
             &-phone {
-                background: url("image/ic_phone_34x34.png") no-repeat left;
+                background-image: url("image/ic_phone_34x34.png");
             }
         }
     }
@@ -38,6 +41,12 @@ footer {
     }
 }
 
+@media (max-width: 480px) {
+    .m-t-md {
+        padding-top: 70px;
+        margin-top: 0 !important;
+    }
+}
 @media (max-width: 767px) {
     footer {
         .logo {
