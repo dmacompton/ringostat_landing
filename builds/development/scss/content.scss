@@ -47,7 +47,7 @@ body {
 }
 
 .main {
-    background: url("./image/bg-main.jpg") center / cover no-repeat;
+    background: url("./images/bg-main.jpg") center / cover no-repeat;
     height: 100vh;
     text-align: center;
     color: #fff;
@@ -126,6 +126,7 @@ body {
             top: 0;
             bottom: 0;
             margin: auto;
+            height: 64px;
         }
         &.phone svg {
             left: 6px;
@@ -140,6 +141,9 @@ body {
     background: #f9f9fa;
     border-bottom: 1px solid #C3C3C3;
     table {
+        font-family: 'OpenSansRegular', sans-serif;
+        font-weight: 400;
+        font-size: 1.16666667em;
     }
     td {
         border-color: #f9f9fa !important;
@@ -148,10 +152,10 @@ body {
     .gr-head {
         text-transform: uppercase;
         background: #69a571;
+        letter-spacing: 3px;
         th {
             color: #ffffff;
             font-weight: 100 !important;
-            font-size: 1.4em;
             padding: 13px 0;
             text-align: center;
             &:first-child {

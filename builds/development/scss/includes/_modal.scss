@@ -1,0 +1,56 @@
+.action-modal {
+    padding: 15px 15px 0px;
+    background: #F9F9F9;
+}
+.btn-cta2 {
+    text-transform: uppercase;
+    padding: 9px;
+    border: 2px solid transparent;
+    min-width: 170px;
+    text-align: center;
+    border-radius: 4px;
+    background: #69a571;
+    color: #fff;
+    margin: 20px auto 30px;
+    max-width: 300px;
+    cursor: pointer;
+    transition: background .22s ease-in-out;
+    &:hover,
+    &:focus {
+        background: #397241;
+        color: #fff;
+    }
+}
+.modal-btn {
+    text-align: center;
+}
+.modal-bg {
+    top: 0;
+    position: fixed;
+    background: url(../img/1.jpg) no-repeat center center fixed;
+    background-color: rgba(50, 50, 250, 0);
+    background-size: cover;
+
+}
+.modal-top {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#demo-message {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 52px;
+}
+#actions {
+    .label-form {
+        text-align: left;
+    }
+    .form-group {
+        text-align: left;
+    }
+    .form-control {
+        margin-bottom: 20px;
+    }
+}

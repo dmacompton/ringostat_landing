@@ -52,6 +52,15 @@
     }
 }
 
+@media (min-width: 767px) {
+    .main_nav_logo {
+        padding-left: 21px !important;
+    }
+    nav .header-btn {
+        margin-right: -6px;
+    }
+}
+
 @media (max-width: 767px) {
     body {
         font-size: 9px;

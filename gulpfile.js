@@ -34,8 +34,8 @@ gulp.task('js', function () {
             'builds/development/js/jquery-1.10.2.min.js',
             'builds/development/js/jquery.smooth-scroll.min.js',
             'builds/development/js/bootstrap.min.js',
-            'builds/development/js/modernizr.js',
-            'builds/development/js/device.js',
+            //'builds/development/js/modernizr.js',
+            //'builds/development/js/device.js',
             //'builds/development/js/jqeury.waypoints.js',
             'builds/development/js/script.js'
         ])
@@ -46,7 +46,7 @@ gulp.task('js', function () {
 
 gulp.task('html', function () {
     gulp.src('builds/development/index.html')
-        .pipe(htmlmin({collapseWhitespace: true}))
+//        .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(connect.reload())
         .pipe(gulp.dest('builds/dist'));
 });
